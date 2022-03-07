@@ -1,0 +1,15 @@
+{
+  "name": "videoplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Stephen_Oshilaja",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.1.0"
+  }
+}

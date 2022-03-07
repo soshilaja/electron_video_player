@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Electron Video Player - Powered by PLYR</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css" />
+    <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.js-player');
+        });
+    </script>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 id="selectFile" hidden>
+            Select a video from the menu</h1>
+        <video id='player' class="js-player">
+        
+        </video>
+    </div>
+    <button type="button" id="btn">Open a File</button>
+    File path: <strong id="filePath"></strong>
+    <script src="renderer.js"></script>
+</body>
+</html>
